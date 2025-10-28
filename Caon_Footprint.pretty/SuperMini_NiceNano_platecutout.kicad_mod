@@ -496,25 +496,25 @@
 			(justify right)
 		)
 	)
-	(pad "25" thru_hole oval
-		(at 4.5466 10.87628 345)
+	(pad "" thru_hole oval
+		(at -0.5334 10.87628 345)
 		(size 1.8 3.8)
 		(drill 1
 			(offset 0 -1)
 		)
 		(layers)
 		(remove_unused_layers no)
-		(uuid "f2201114-d8b9-4e62-85ff-abcf52dc950c")
+		(uuid "1888b613-5a3e-4f10-8189-7fc482ae3661")
 	)
-	(pad "25" thru_hole circle
-		(at 5.08 8.89 345)
+	(pad "" thru_hole circle
+		(at 0 8.89)
 		(size 1.8 1.8)
 		(drill 1)
 		(layers)
 		(remove_unused_layers no)
-		(uuid "7f780c8a-7f9b-48d3-ac04-3839ff83d0aa")
+		(uuid "24c64336-c297-4250-bf21-f85619d2d517")
 	)
-	(pad "26" thru_hole oval
+	(pad "" thru_hole oval
 		(at 2.0066 10.87628 345)
 		(size 1.8 3.8)
 		(drill 1
@@ -525,7 +525,7 @@
 		(remove_unused_layers no)
 		(uuid "3ffcafc0-2b7d-4867-a0df-1d4fd85de526")
 	)
-	(pad "26" thru_hole circle
+	(pad "" thru_hole circle
 		(at 2.54 8.89)
 		(size 1.8 1.8)
 		(drill 1)
@@ -533,28 +533,28 @@
 		(remove_unused_layers no)
 		(uuid "fab64207-92a0-48d9-b87b-a2fdc5fe3dae")
 	)
-	(pad "27" thru_hole oval
-		(at -0.5334 10.87628 345)
+	(pad "" thru_hole oval
+		(at 4.5466 10.87628 345)
 		(size 1.8 3.8)
 		(drill 1
 			(offset 0 -1)
 		)
 		(layers)
 		(remove_unused_layers no)
-		(uuid "1888b613-5a3e-4f10-8189-7fc482ae3661")
+		(uuid "f2201114-d8b9-4e62-85ff-abcf52dc950c")
 	)
-	(pad "27" thru_hole circle
-		(at 0 8.89)
+	(pad "" thru_hole circle
+		(at 5.08 8.89 345)
 		(size 1.8 1.8)
 		(drill 1)
 		(layers)
 		(remove_unused_layers no)
-		(uuid "24c64336-c297-4250-bf21-f85619d2d517")
+		(uuid "7f780c8a-7f9b-48d3-ac04-3839ff83d0aa")
 	)
 	(embedded_fonts no)
 	(model "E:/PROJECT/Personal-Kicad-Library/3d/Nice_Nano_V2_Flipped.step"
 		(offset
-			(xyz -0.1 1.3 3)
+			(xyz 0 1.25 2.5)
 		)
 		(scale
 			(xyz 1 1 1)

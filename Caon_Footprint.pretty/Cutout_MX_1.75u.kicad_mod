@@ -1,0 +1,202 @@
+(footprint "Cutout_MX_1.75u"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MX keyswitch plate cutout 1.75u")
+	(tags "MX Keyboard Keyswitch Switch Plate Cutout Keycap 1.75u")
+	(property "Reference" "REF**"
+		(at 0 -8 0)
+		(layer "F.SilkS")
+		(uuid "10757dd1-f0ec-405f-ab68-efb259e844fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CUTOUT_MX_1.75u"
+		(at 0 8 0)
+		(layer "F.Fab")
+		(uuid "06f61d68-302a-4187-b657-7ba135a5c21d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "477840fe-7cb0-4800-9a3b-09a68f464415")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25dc02a1-2a16-4ad2-b821-c0aaf8865ddf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -16.66875 -9.525)
+		(end -16.66875 9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e8b7ce9a-6ae5-4a82-8873-dd2db225e7f9")
+	)
+	(fp_line
+		(start -16.66875 9.525)
+		(end 16.66875 9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "04ea6afe-a193-45fa-93ad-0011f0a4effc")
+	)
+	(fp_line
+		(start 16.66875 -9.525)
+		(end -16.66875 -9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "0f6202a1-551f-432b-b65b-b38671d96060")
+	)
+	(fp_line
+		(start 16.66875 9.525)
+		(end 16.66875 -9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bd344ee0-9361-481a-8bde-6acb7956e7b1")
+	)
+	(fp_line
+		(start -7 6.5)
+		(end -6.999999 -6.500001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "490de8a1-9d92-43e1-b31c-5be608903e96")
+	)
+	(fp_line
+		(start -6.5 -7)
+		(end 6.5 -7.000001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e417fa93-8156-4a20-9980-bea8a24ea79e")
+	)
+	(fp_line
+		(start 6.5 6.999999)
+		(end -6.5 7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e036737e-dac9-4bcc-9708-2e894d2018bd")
+	)
+	(fp_line
+		(start 7 -6.500001)
+		(end 7 6.499999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e548de11-429d-488d-b924-ee17d72842ec")
+	)
+	(fp_arc
+		(start -7 -6.500001)
+		(mid -6.853553 -6.853554)
+		(end -6.5 -7.000001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "73394892-8826-4f41-8d98-f3f44615f815")
+	)
+	(fp_arc
+		(start -6.500001 7)
+		(mid -6.853554 6.853553)
+		(end -7.000001 6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1041f2ee-375a-4ce9-8061-1970edd214cf")
+	)
+	(fp_arc
+		(start 6.5 -7.000001)
+		(mid 6.853553 -6.853554)
+		(end 7 -6.500001)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2f9167e8-57d1-4fdc-98e7-64887d6eeb8e")
+	)
+	(fp_arc
+		(start 7 6.499999)
+		(mid 6.853553 6.853552)
+		(end 6.5 6.999999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4cf56bd6-7fc6-4b44-8146-8a7c49dc2ede")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dcc5d16b-53cb-41b5-bed6-b8f047001227")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${SCOTTOKEEBS_KICAD}/3dmodels/ScottoKeebs_Cutout.3dshapes/MX_Cutout.step"
+		(offset
+			(xyz 0 0 -5.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

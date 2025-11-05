@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -8 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "10757dd1-f0ec-405f-ab68-efb259e844fc")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 	(property "Value" "CUTOUT_MX_1.75u"
 		(at 0 8 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "06f61d68-302a-4187-b657-7ba135a5c21d")
 		(effects
 			(font
@@ -93,51 +95,51 @@
 		(uuid "bd344ee0-9361-481a-8bde-6acb7956e7b1")
 	)
 	(fp_line
-		(start -7 6.5)
-		(end -6.999999 -6.500001)
+		(start -7.000001 6.5)
+		(end -7 -6.500001)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "490de8a1-9d92-43e1-b31c-5be608903e96")
+		(uuid "a2ee81ab-3d44-4af7-8356-b9e7b20abf4a")
 	)
 	(fp_line
-		(start -6.5 -7)
+		(start -6.5 -7.000001)
 		(end 6.5 -7.000001)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e417fa93-8156-4a20-9980-bea8a24ea79e")
+		(uuid "8b5af9a3-0427-48a0-8cd4-6ccc4aa95335")
 	)
 	(fp_line
 		(start 6.5 6.999999)
-		(end -6.5 7)
+		(end -6.500001 7)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e036737e-dac9-4bcc-9708-2e894d2018bd")
+		(uuid "c56a8fc1-6e9c-4ba4-bd8e-b745f45bdf16")
 	)
 	(fp_line
 		(start 7 -6.500001)
 		(end 7 6.499999)
 		(stroke
-			(width 0.1)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e548de11-429d-488d-b924-ee17d72842ec")
+		(uuid "08176001-222a-475b-b0a7-efbbce373ef5")
 	)
 	(fp_arc
 		(start -7 -6.500001)
 		(mid -6.853553 -6.853554)
 		(end -6.5 -7.000001)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -148,7 +150,7 @@
 		(mid -6.853554 6.853553)
 		(end -7.000001 6.5)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -159,7 +161,7 @@
 		(mid 6.853553 -6.853554)
 		(end 7 -6.500001)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
@@ -170,7 +172,7 @@
 		(mid 6.853553 6.853552)
 		(end 6.5 6.999999)
 		(stroke
-			(width 0.1)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
